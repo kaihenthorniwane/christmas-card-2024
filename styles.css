@@ -1,5 +1,18 @@
+@font-face {
+  font-family: "RockhillSans-Rough";
+  src: url("./assets/fonts/RockhillSans-Rough.woff2") format("woff2"),
+    url("./assets/fonts/RockhillSans-Rough.woff") format("woff"),
+    url("./assets/fonts/RockhillSans-Rough.ttf") format("truetype"),
+    url("./assets/fonts/RockhillSans-Rough.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0px;
+  font-size: 2rem;
+  font-family: "RockhillSans-Rough", sans-serif;
+  color: #032e32;
 }
 
 #rive-canvas {
@@ -11,6 +24,8 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
   justify-content: center;
   align-items: center;
   background-color: #abc8c6;
