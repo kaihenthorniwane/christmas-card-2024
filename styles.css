@@ -13,6 +13,7 @@ body {
   font-size: 2rem;
   font-family: "RockhillSans-Rough", sans-serif;
   color: #032e32;
+  text-align: center;
 }
 
 #rive-canvas {
@@ -25,8 +26,11 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
   justify-content: center;
   align-items: center;
   background-color: #abc8c6;
+}
+
+.container > span {
+  padding: 20px;
 }
